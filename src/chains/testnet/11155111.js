@@ -15,14 +15,6 @@ const chainConfig = {
   "circleTokenMinter": "0xE997d7d2F6E065a9A93Fa2175E878Fb9081F1f0A",
   "protoCCTPGateway": "0xC46bc942ca64aed4Eb0B1Af21347944b85EDCb04",
   "isCCTPEnabled": true,
-  // This is a root chain for CCTP
-  "cctpLeafChains": [
-    {
-      "chainId": 48899,
-      "rootManager": "0xC7c54ca043dC8e5dd1dF6E5a4B4A2Df42A1ba59d",
-      "leafManager": "0x31c3E0eeF8412aC4dF12b5C5B0FF25cff2aBA65A"
-    }
-  ]
 };
 
 module.exports = chainConfig;
